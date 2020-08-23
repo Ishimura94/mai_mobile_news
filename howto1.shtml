@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="theme-color" content="#36474f">
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width">
+    <title>Mobile News</title>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="images/i.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+                <h1>Mobile News</h1>
+                <p>самое интересное из мира гаджетов, интернета и технологий</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.shtml">Вся лента</a></li>
+                <li><a href="news.shtml">Новости</a></li>
+                <li><a href="reviews.shtml">Обзоры</a></li>
+                <li><a href="articles.shtml">Статьи</a></li>
+                <li><a href="apps.shtml">Программы</a></li>
+                <li><a href="howto.shtml">How to ..?</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <article>
+                <h2>Как заставить себя нормально заполнить все вкладки сайта?</h2>
+                    <p>В процессе создания сего шедевра, в какой-то момент становится лень заполнять все вкладки, и начинаешь писать что-то, лишь бы было... Можно хоть историю какую напишу, а?</p>
+                    <p>Короче, заполняю-заполняю и тут как-то лень стало, а осталось всего 1 вкладка. + на глаза попадается картиночка с крутым ленивцем... Ну думаю, напишу какую-нибудь ересь и вставлю этого ленивца, типа мне лень... Причём отредачить этого ленивца было совсем не лень... THAT'S ALL</p>
+                    <p align="center">И немного о дизайне (ленивец ниже):</p>
+                    <p align="center"><img src="images/dezign.gif" alt="Дизигн"/></p>
+                    <p align="center"><a title="Трогни..." href="https://s-media-cache-ak0.pinimg.com/736x/32/69/28/326928d1044e546f261def6777db9f4f.jpg" target="_blank"><img src="images/sorry.jpg" alt="Сорян, тут только ленивец" width="500" height="500"/></a></p>
+            </article>
+        </div>
+        <footer>
+            <p>Лозунг честно стырен с <a href="http://droider.ru/" target="_blank">droider.ru</a>, а лента представляет собой почти полный копипаст с <a href="http://4pda.ru/" target="_blank">4PDA.ru</a> :3<br>Создатель всего этого безобразия: <a href="http://vk.com/nkalitanov" target="_blank">Калитанов Н.А.</a>, группа 3ИВТ-2ДБ-008<br><!--#config timefmt="%Y"--><!--#if expr="$DATE_LOCAL=2015"-->2015<!--#else-->2015&mdash;<!--#echo var="DATE_LOCAL"--><!--#endif--></p>
+        </footer>
+    </div>
+</body>
+</html>
